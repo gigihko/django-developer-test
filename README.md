@@ -24,7 +24,7 @@ Aplikasi ini adalah contoh implementasi **Django Modular System** dengan modul `
   - username: `public`, password : hashmicro123
 
 ## Struktur Project
-<!-- TREEVIEW START -->
+```bash
 
 django-developer-test/
 ├── modular_project/
@@ -41,7 +41,7 @@ django-developer-test/
 ├── manage.py
 ├── README.md
 └── requirements.txt
-<!-- TREEVIEW END -->
+```
 
 
 ## Instalasi & Menjalankan Aplikasi
