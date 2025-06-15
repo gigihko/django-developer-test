@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Module Management{% endblock %}
+{% block content %}
+<h2>Modules</h2>
+<table class="table table-bordered table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Installed At</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for module in modules %}
+    <tr>
+      <td>{{ module.name }}</td>
+      <td>{{ module.status }}</td>
+      <td>{{ module.installed_at|default:"-" }}</td>
+      <td>
+        {% if module.status == 'installed' %}
+          <a href="{% url 'upgrade_module' module.name %}" class="btn btn-sm btn-info">Upgrade</a>
+          <a href="{% url 'uninstall_module' module.name %}" class="btn btn-sm btn-danger">Uninstall</a>
+        {% else %}
+          <a href="{% url 'install_module' module.name %}" class="btn btn-sm btn-success">Install</a>
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

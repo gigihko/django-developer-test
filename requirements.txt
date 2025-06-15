@@ -1,0 +1,15 @@
+asgiref==3.8.1
+chardet==5.2.0
+distlib==0.3.7
+Django==5.1.4
+filelock==3.13.1
+pillow==10.4.0
+platformdirs==3.11.0
+PyMuPDF==1.24.9
+PyMuPDFb==1.24.9
+pypdf==4.3.1
+PyPDF2==3.0.1
+reportlab==4.2.2
+sqlparse==0.5.3
+tzdata==2024.2
+virtualenv==20.24.6
