@@ -25,18 +25,19 @@ Aplikasi ini adalah contoh implementasi **Django Modular System** dengan modul `
 
 ## Struktur Project
 django-developer-test/
-├──modular_project
-│  ├── example_module/                 # Aplikasi modular "Product"
-│  ├── modular_engine/                 # Engine utama
-│  └── templates/
-│      ├── base.html                   # Template dasar Bootstrap
-│      └── example_module/             # Template per modul
-├── venv                               # virtual environtment
-├── db.sqlite3                         # Database SQLite
+├── modular_project/
+│   ├── example_module/               # Aplikasi modular "Product"
+│   ├── modular_engine/               # Engine utama (core app)
+│   └── templates/
+│       ├── base.html                 # Template dasar Bootstrap
+│       └── example_module/           # Template khusus untuk example_module
+├── docs/                            # Folder untuk dokumentasi gambar, flowchart, ERD, dll
+│   ├── ERD.png
+│   ├── Flowchart-Engine-Module.png
+│   └── Flowchart-Example-Module.png
+├── venv/                           # Virtual environment (sebaiknya di .gitignore)
+├── db.sqlite3                      # Database SQLite (jika memang pakai SQLite lokal)
 ├── manage.py
-├── ERD.png                            # Diagram ERD (draw.io)
-├── Flowchart - Engine Module.png      # Flowchart sistem
-├── Flowchart - Example Module.png     # Flowchart sistem
 ├── README.md
 └── requirements.txt
 
