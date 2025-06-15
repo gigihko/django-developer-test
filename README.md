@@ -46,7 +46,7 @@ django-developer-test/
 ## Instalasi & Menjalankan Aplikasi
 1. **Clone Repository**
    ```bash
-   git clone <repo-url>
+   git clone <git@github.com:gigihko/django-developer-test.git>
    cd django-developer-test
    ```
 
@@ -84,4 +84,4 @@ django-developer-test/
 - Pastikan setiap view menggunakan `@group_required` agar modul dapat dikendalikan per grup.
 
 ## Penulis
-Dibuat untuk keperluan **Technical Test Django Developer**, oleh [Nama Kamu].
+Dibuat untuk keperluan **Technical Test Django Developer**, oleh [Gigih Pambuko].
