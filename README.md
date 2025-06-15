@@ -36,11 +36,11 @@ django-developer-test/
 ├── ERD.png                         # ERD Diagram
 ├── Flowchart-Engine-Module.png     # Flowchart untuk modular engine
 ├── Flowchart-Example-Module.png    # Flowchart untuk example module
-├── venv/                           # Virtual environment (sebaiknya di .gitignore)
-├── db.sqlite3                      # Database SQLite (jika memang pakai SQLite lokal)
+├── venv/                           # Virtual environment
+├── db.sqlite3                      # Database SQLite
 ├── manage.py
 ├── README.md
-└── requirements.txt
+└── requirements.txt                # Library yang digunakan
 ```
 
 
