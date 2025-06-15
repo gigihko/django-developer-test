@@ -24,23 +24,24 @@ Aplikasi ini adalah contoh implementasi **Django Modular System** dengan modul `
   - username: `public`, password : hashmicro123
 
 ## Struktur Project
+<!-- TREEVIEW START -->
 
 django-developer-test/
 ├── modular_project/
-│   ├── example_module/               # Aplikasi modular "Product"
-│   ├── modular_engine/               # Engine utama (core app)
+│   ├── example_module/             # Aplikasi modular "Product"
+│   ├── modular_engine/             # Engine utama (core app)
 │   └── templates/
-│       ├── base.html                 # Template dasar Bootstrap
-│       └── example_module/           # Template khusus untuk example_module
-├── docs/                           # Folder untuk dokumentasi gambar, flowchart, ERD, dll
-│   ├── ERD.png
-│   ├── Flowchart-Engine-Module.png
-│   └── Flowchart-Example-Module.png
+│       ├── base.html               # Template dasar Bootstrap
+│       └── example_module/         # Template khusus untuk example_module
+├── ERD.png                         # ERD Diagram
+├── Flowchart-Engine-Module.png     # Flowchart untuk modular engine
+├── Flowchart-Example-Module.png    # Flowchart untuk example module
 ├── venv/                           # Virtual environment (sebaiknya di .gitignore)
 ├── db.sqlite3                      # Database SQLite (jika memang pakai SQLite lokal)
 ├── manage.py
 ├── README.md
 └── requirements.txt
+<!-- TREEVIEW END -->
 
 
 ## Instalasi & Menjalankan Aplikasi
