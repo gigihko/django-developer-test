@@ -24,6 +24,7 @@ Aplikasi ini adalah contoh implementasi **Django Modular System** dengan modul `
   - username: `public`: hashmicro123, password : hashmicro123
 
 ## Struktur Project
+
 django-developer-test/
 ├── modular_project/
 │   ├── example_module/               # Aplikasi modular "Product"
@@ -31,7 +32,7 @@ django-developer-test/
 │   └── templates/
 │       ├── base.html                 # Template dasar Bootstrap
 │       └── example_module/           # Template khusus untuk example_module
-├── docs/                            # Folder untuk dokumentasi gambar, flowchart, ERD, dll
+├── docs/                           # Folder untuk dokumentasi gambar, flowchart, ERD, dll
 │   ├── ERD.png
 │   ├── Flowchart-Engine-Module.png
 │   └── Flowchart-Example-Module.png
@@ -40,6 +41,7 @@ django-developer-test/
 ├── manage.py
 ├── README.md
 └── requirements.txt
+
 
 ## Instalasi & Menjalankan Aplikasi
 1. **Clone Repository**
