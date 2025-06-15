@@ -20,8 +20,8 @@ Aplikasi ini adalah contoh implementasi **Django Modular System** dengan modul `
 - ERD dan Flowchart disertakan.
 - Role-based username & Password:
   - username: `manager`, password : hashmicro123
-  - username: `user`: hashmicro123, password : hashmicro123
-  - username: `public`: hashmicro123, password : hashmicro123
+  - username: `user`, password : hashmicro123
+  - username: `public`, password : hashmicro123
 
 ## Struktur Project
 
@@ -46,7 +46,7 @@ django-developer-test/
 ## Instalasi & Menjalankan Aplikasi
 1. **Clone Repository**
    ```bash
-   git clone <git@github.com:gigihko/django-developer-test.git>
+   git clone git@github.com:gigihko/django-developer-test.git
    cd django-developer-test
    ```
 
