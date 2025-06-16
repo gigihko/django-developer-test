@@ -29,7 +29,7 @@ urlpatterns = [
     path('module/', include('module_engine.urls')),
 
     path('', auth_views.LoginView.as_view(authentication_form=BootstrapAuthenticationForm), name='login'),
-    path('logout/', auth_views.LogoutView.as_view(next_page='/login/'), name='logout'),
+    path('logout/', auth_views.LogoutView.as_view(next_page='/'), name='logout'),
 ]
 
 urlpatterns += get_active_module_urls()

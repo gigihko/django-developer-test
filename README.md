@@ -20,30 +20,34 @@ Aplikasi ini adalah contoh implementasi **Django Modular System** dengan modul `
 - ERD dan Flowchart disertakan.
 - Role-based username & Password:
   - username: `manager`, password : hashmicro123
-  - username: `user`: hashmicro123, password : hashmicro123
-  - username: `public`: hashmicro123, password : hashmicro123
+  - username: `user`, password : hashmicro123
+  - username: `public`, password : hashmicro123
 
 ## Struktur Project
+```bash
+
 django-developer-test/
-├──modular_project
-│  ├── example_module/                 # Aplikasi modular "Product"
-│  ├── modular_engine/                 # Engine utama
-│  └── templates/
-│      ├── base.html                   # Template dasar Bootstrap
-│      └── example_module/             # Template per modul
-├── venv                               # virtual environtment
-├── db.sqlite3                         # Database SQLite
+├── modular_project/
+│   ├── example_module/             # Aplikasi modular "Product"
+│   ├── modular_engine/             # Engine utama (core app)
+│   └── templates/
+│       ├── base.html               # Template dasar Bootstrap
+│       └── example_module/         # Template khusus untuk example_module
+├── ERD.png                         # ERD Diagram
+├── Flowchart-Engine-Module.png     # Flowchart untuk modular engine
+├── Flowchart-Example-Module.png    # Flowchart untuk example module
+├── venv/                           # Virtual environment
+├── db.sqlite3                      # Database SQLite
 ├── manage.py
-├── ERD.png                            # Diagram ERD (draw.io)
-├── Flowchart - Engine Module.png      # Flowchart sistem
-├── Flowchart - Example Module.png     # Flowchart sistem
 ├── README.md
-└── requirements.txt
+└── requirements.txt                # Library yang digunakan
+```
+
 
 ## Instalasi & Menjalankan Aplikasi
 1. **Clone Repository**
    ```bash
-   git clone <repo-url>
+   git clone git@github.com:gigihko/django-developer-test.git
    cd django-developer-test
    ```
 
@@ -81,4 +85,4 @@ django-developer-test/
 - Pastikan setiap view menggunakan `@group_required` agar modul dapat dikendalikan per grup.
 
 ## Penulis
-Dibuat untuk keperluan **Technical Test Django Developer**, oleh [Nama Kamu].
+Dibuat untuk keperluan **Technical Test Django Developer**, oleh [Gigih Pambuko].
